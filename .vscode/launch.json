@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Binding",
+            "request": "launch",
+            "mainClass": "Binding.Binding",
+            "projectName": "JavaFX1st_cbbd11b8"
+        },
+        {
+            "type": "java",
             "name": "MainJavaFX_Property",
             "request": "launch",
             "mainClass": "Property.MainJavaFX_Property",
