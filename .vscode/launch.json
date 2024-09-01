@@ -6,10 +6,17 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainJavaFX_Property",
+            "request": "launch",
+            "mainClass": "Property.MainJavaFX_Property",
+            "projectName": "JavaFX1st_cbbd11b8"
+        },
+        {
+            "type": "java",
             "name": "MainJavaFX2",
             "request": "launch",
             "mainClass": "MainJavaFX2",
-            "projectName": "JavaFX1st_cbbd11b8",
+            "projectName": "JavaFX1st_cbbd11b8"
         },
         {
             "type": "java",
@@ -21,7 +28,7 @@
             "type": "java",
             "name": "MainJavaFX",
             "request": "launch",
-            "mainClass": "MainJavaFX_Checkbox",
+            "mainClass": "MainJavaFX_Dialog",
             "projectName": "JavaFX1st_cbbd11b8",
             "vmArgs": "--module-path \"C:/javafx-sdk-22.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
         }
