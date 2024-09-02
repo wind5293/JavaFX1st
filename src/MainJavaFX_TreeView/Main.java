@@ -1,4 +1,4 @@
-package MainJavaFX_EventHandling;
+package MainJavaFX_TreeView;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -6,7 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class MainJavaFX_EventHandling extends Application{
+public class Main extends Application{
     public static void main(String[] args) { launch(args); }
 
     @Override

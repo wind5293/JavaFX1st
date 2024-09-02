@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainJavaFX_TreeView",
+            "request": "launch",
+            "mainClass": "MainJavaFX_TreeView.MainJavaFX_TreeView",
+            "projectName": "JavaFX1st_cbbd11b8"
+        },
+        {
+            "type": "java",
             "name": "MainJavaFX_Alert",
             "request": "launch",
             "mainClass": "MainJavaFX_Alert",
@@ -52,9 +59,17 @@
         },
         {
             "type": "java",
+            "name": "MainJavaFX_TreeView",
+            "request": "launch",
+            "mainClass": "MainJavaFX_TreeView.Main",
+            "projectName": "JavaFX1st_cbbd11b8",
+            "vmArgs": "--module-path \"C:/javafx-sdk-22.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
-        },
+        }
     ]
 }
