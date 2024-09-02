@@ -6,6 +6,30 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainJavaFX_Alert",
+            "request": "launch",
+            "mainClass": "MainJavaFX_Alert",
+            "projectName": "JavaFX1st_cbbd11b8",
+            "vmArgs": "--module-path \"C:/javafx-sdk-22.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "MainJavaFX_Checkbox",
+            "request": "launch",
+            "mainClass": "MainJavaFX_Checkbox",
+            "projectName": "JavaFX1st_cbbd11b8",
+            "vmArgs": "--module-path \"C:/javafx-sdk-22.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "MainJavaFX_Dialog",
+            "request": "launch",
+            "mainClass": "MainJavaFX_Dialog",
+            "projectName": "JavaFX1st_cbbd11b8",
+            "vmArgs": "--module-path \"C:/javafx-sdk-22.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
             "name": "Binding",
             "request": "launch",
             "mainClass": "Binding.Binding",
@@ -20,10 +44,11 @@
         },
         {
             "type": "java",
-            "name": "MainJavaFX2",
+            "name": "MainJavaFX_EventHandling",
             "request": "launch",
-            "mainClass": "MainJavaFX2",
-            "projectName": "JavaFX1st_cbbd11b8"
+            "mainClass": "MainJavaFX_EventHandling.MainJavaFX_EventHandling",
+            "projectName": "JavaFX1st_cbbd11b8",
+            "vmArgs": "--module-path \"C:/javafx-sdk-22.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
@@ -31,13 +56,5 @@
             "request": "launch",
             "mainClass": "${file}"
         },
-        {
-            "type": "java",
-            "name": "MainJavaFX",
-            "request": "launch",
-            "mainClass": "MainJavaFX_Dialog",
-            "projectName": "JavaFX1st_cbbd11b8",
-            "vmArgs": "--module-path \"C:/javafx-sdk-22.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
-        }
     ]
 }
